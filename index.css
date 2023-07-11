@@ -14,6 +14,41 @@ body{
     border: 0px;
     padding: 18px 26px;
 }
+.btn:hover{
+    cursor: pointer;
+    color:  #FCE16D;
+}
+/* ########### NAVIGATION BAR ########### */
+nav {
+    background-color: #111010;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 240px;
+}
+.nav-title{
+    color: #ffffff;
+    font-size: 46px;
+    font-weight: 800;
+}
+nav li{
+    color: #ffffff;
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+    cursor: pointer;
+    color:  #FCE16D;
+}
 /* #########   HEADER PART    ########## */
 .header{
     height: 90vh;
@@ -22,7 +57,8 @@ body{
     align-items: center;
     padding-left: 240px;
     padding-right: 240px;
-    background-color: rgba(229, 84, 115, 0.18);
+    background-color: #FFEAA2;
+
 }
 .header-flower{
     height: 800px;
@@ -113,7 +149,10 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 150px 240px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 80px 240px;
+    background-color: #FFEAA2;
 }
 .offer-header{
     font-size: 40px;
@@ -131,6 +170,44 @@ body{
 .img-left{
     width: 318px;
     height: 420px;
+}
+/* ########### CUSTOM SECTION ################## */
+.custom-sec > h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 120px;
+}
+.flower-name{
+    margin:10px;
+}
+.flower-name >p{
+    color: rgb(70, 70, 70);
+}
+.about-flowers{
+    background-color: #FFEAA2;;
+    padding: 10px 12px;
+    width: 280px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px 30px;
+    border-radius: 70px 5px;
+    box-shadow: 7px 8px 7px rgba(63, 63, 63, 0.568);
+}
+.icons{
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    border: 0px;
+    margin: 10px;
+}
+.Flower-descriptions{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 240px;
 }
 /* ######### Section 3 ########### */
 .four-images{
@@ -182,10 +259,10 @@ input::placeholder {
 }
 /* ######### Footer part ########### */
 footer{
-    height: 449px;
+    height: 280px;
     background-color: #111010;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 160px;
 }
 .last-title{
     font-size: 48px;
@@ -195,10 +272,11 @@ footer{
 }
 .last-text{
     font-size: 18px;
-    color: rgb(255, 255, 255);
+    color: rgb(200, 200, 200);
     margin-bottom: 32px;
 }
 .end-text{
     font-size: 16px;
     color:rgba(255, 255, 255, 0.60);
 }
+
