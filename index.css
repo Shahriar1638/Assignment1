@@ -20,9 +20,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 140px;
-    padding-right: 140px;
-    background-color: rgba(229, 84, 115, 0.3);
+    padding-left: 240px;
+    padding-right: 240px;
+    background-color: rgba(229, 84, 115, 0.18);
 }
 .header-flower{
     height: 800px;
@@ -61,8 +61,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: 240px;
+    margin-left: 240px;
 }
 .flower-box1, .flower-box2, .flower-box3{
     width: 464px;
@@ -93,10 +93,10 @@ body{
     background-color: rgba(167, 33, 98, 0.15);
 }
 .flower-box2{
-    background-color: rgba(5, 152, 160, 0.15);
+    background-color: rgba(5, 152, 160, 0.25);
 }
 .flower-box3{
-    background-color: rgba(71, 125, 17, 0.15);
+    background-color: rgba(71, 125, 17, 0.20);
 }
 .box{
     display: flex;
@@ -113,7 +113,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 150px 200px;
+    margin: 150px 240px;
 }
 .offer-header{
     font-size: 40px;
@@ -137,9 +137,68 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 48px 200px;
+    margin: 48px 240px;
 }
 .images{
     height: 396px;
     width: 342px;
+}
+/* ######### last section ########### */
+.last-section{
+    margin: 128px 240px;
+    width: 1440px;
+    height: 449px;
+    display: flex;
+    justify-content: center;
+    background-image: url("Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+}
+.deal-title{
+    margin-bottom: 16px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.coupon{
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+    margin-bottom: 50px;
+}
+input{
+    padding-left: 18px;
+    width: 700px;
+    height: 64px;
+    border: 0px;
+    border-radius: 5px;
+}
+input::placeholder {
+    font-size: 16px;
+}
+.inside-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* ######### Footer part ########### */
+footer{
+    height: 449px;
+    background-color: #111010;
+    text-align: center;
+    padding-top: 200px;
+}
+.last-title{
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 24px;
+}
+.last-text{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 32px;
+}
+.end-text{
+    font-size: 16px;
+    color:rgba(255, 255, 255, 0.60);
 }
