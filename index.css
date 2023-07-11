@@ -98,4 +98,48 @@ body{
 .flower-box3{
     background-color: rgba(71, 125, 17, 0.15);
 }
-
+.box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.box >p{
+    padding-top: 32px;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* ######### Section 2 ########### */
+.sec2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px 200px;
+}
+.offer-header{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.offer-text{
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+    margin-bottom: 32px;
+}
+.text-part{
+    text-align: center;
+}
+.img-left{
+    width: 318px;
+    height: 420px;
+}
+/* ######### Section 3 ########### */
+.four-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 48px 200px;
+}
+.images{
+    height: 396px;
+    width: 342px;
+}
