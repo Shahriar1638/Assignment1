@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+.btn{
+    font-size: 20px;
+    color: white;
+    background-color: #E55473;
+    border-radius: 6px;
+    border: 0px;
+    padding: 18px 26px;
+}
+/* #########   HEADER PART    ########## */
+.header{
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+    background-color: rgba(229, 84, 115, 0.3);
+}
+.header-flower{
+    height: 800px;
+    width: 635px;
+    padding-top: 45px;
+}
+.Bold-text{
+    font-size: 80px;
+    font-weight: 900;
+}
+.para-text{
+    padding-right: 240px;
+    padding-top: 32px;
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+    padding-bottom: 32px;
+}
+/* ##########  BODY PART 1 ############# */
+.sec1{
+    margin-top: 178px;
+}
+.Text-of-sec1{
+    text-align: center;
+}
+.featured-flower{
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.featured-flower-texts{
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+}
+.flower-box-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.flower-box1, .flower-box2, .flower-box3{
+    width: 464px;
+    height: 538px;
+    margin-right: 24px;
+    border-radius: 50% 50% 0 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.img2{
+    width: 370px;
+    height: 370px;
+}
+.img1{
+    width: 310px;
+    height: 428px;
+}
+.img3{
+    width: 314px;
+    height: 471px;
+}
+.img1 ,.img2, .img3{
+    position: absolute;
+    bottom: 0px;
+}
+.flower-box1{
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.flower-box2{
+    background-color: rgba(5, 152, 160, 0.15);
+}
+.flower-box3{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
